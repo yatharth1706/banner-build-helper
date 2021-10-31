@@ -1,10 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Builder from "./components/Builder";
 
 function App() {
   return (
-    <div>
-      <h3>Banner Builder</h3>
+    <div className="w-full h-auto p-2">
+      <Builder />
     </div>
   );
 }
